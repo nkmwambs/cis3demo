@@ -39,7 +39,7 @@
                                         <a href="<?php echo site_url("cis3integration/create_bucket/cis3demotestingbucket"); ?>" class="btn btn-xs <?php echo $this->uri->segment(2)=="create_bucket"?"btn-primary":""; ?>">Create a Bucket Demo</a>
                                         <a href="<?php echo site_url("cis3integration/create_presigned_url"); ?>" class="btn btn-xs <?php echo $this->uri->segment(2)=="create_presigned_url"?"btn-primary":""; ?>">Create Presigned URL</a>
                                         <a href="<?php echo site_url("cis3integration/browser_upload"); ?>" class="btn btn-xs <?php echo $this->uri->segment(2)=="browser_upload"?"btn-primary":""; ?>">Browser Upload</a>
-                                        <span style="float:right">
+                                        <!-- <span style="float:right">
                                             <a href="http://codecanyon.net/item/codeigniter-aws-s3-integration-library/4993914?ref=scriptigniter"><strong>Buy The Script</strong></a>
-                                        </span>
+                                        </span> -->
 
