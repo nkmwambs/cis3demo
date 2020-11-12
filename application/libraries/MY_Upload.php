@@ -87,7 +87,7 @@ class MY_Upload extends CI_Upload
                                     'Bucket'     => $CI->cis3integration_lib->bucket_name,
                                     'Key'        => $this->upload_path . $this->file_name,
                                     'SourceFile' => $this->file_temp,
-                                    'ACL'        => $this->acl,
+                                    //'ACL'        => $this->acl,
                                     'ContentType' => $this->file_type
                                 ));
             if ($result['ObjectURL']) {
@@ -120,7 +120,7 @@ class MY_Upload extends CI_Upload
                                     'Bucket'     => $CI->cis3integration_lib->bucket_name,
                                     'Key'        => $this->s3_path . $this->file_name,
                                     'SourceFile' => $this->source_path . $this->original_file_name,
-                                    'ACL'        => $this->acl,
+                                    //'ACL'        => $this->acl,
                                     'ContentType' => $this->file_type
                                 ));
             if ($result['ObjectURL']) {
