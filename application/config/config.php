@@ -23,8 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$base_url = 'http://'.$_SERVER['HTTP_HOST'].'/cis3demo-CodeIgniter-3.0.4/';
-$config['base_url'] = $base_url;
+
+$config['base_url'] = "http://localhost/cis3demo-CodeIgniter-3.0.4/";
 
 /*
 |--------------------------------------------------------------------------

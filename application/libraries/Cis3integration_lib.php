@@ -112,6 +112,7 @@ class Cis3integration_lib
             ],
         ];
         $sdk = new Aws\Sdk($sharedConfig);
+        
         $this->s3Client = $sdk->createS3();                
     }
 

@@ -50,7 +50,7 @@ class Cis3integration extends CI_Controller
         if (@$_FILES['file']['name'] != "") 
         {
             $config['upload_path']   = 'uploads/';//Leave blank if want to upload at root of bucket
-            $config['allowed_types'] = 'jpg|jpeg|png|gif|pdf|doc|docs|zip';
+            $config['allowed_types'] = 'jpg|jpeg|png|gif|pdf|doc|docs|docx|xls|xlsx|zip';
             $config['remove_spaces'] = TRUE;
             $config['max_size']      = '5120';//5MB
             

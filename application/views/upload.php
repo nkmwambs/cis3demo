@@ -4,7 +4,7 @@
   If you require some manipulation before uploading file to S3 then check <?php echo anchor("cis3integration/manual_upload_demo","Demo2"); ?><br />
   <?php     
 $attributes = array('class' => 'form-horizontal', 'id' => '');
-echo form_open_multipart('', $attributes); ?>
+echo form_open_multipart(base_url().'Cis3integration', $attributes); ?>
   <div class="control-group">
     <label for="file" class="control-label" title="Allowed file types: jpg|jpeg|png|gif|pdf|doc|docs|zip Max upload limit: 5MB">Choose a file to upload: <span style="color:red">*</span></label>
     <div class='controls'>
